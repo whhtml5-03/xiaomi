@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="xiaomi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="lib/angular.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/angular-route.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/angular-css.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+    <script src="component/home/home.js" type="text/javascript" charset="utf-8"></script>
+    <script src="component/category/category.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div ng-view></div>
+	<ul id="tab">
+		<li><a href="#/home">首页</a></li>
+		<li><a href="#/category">分类</a></li>
+		<li><a href="#/shop">购物车</a></li>
+		<li><a href="#/mine">我的</a></li>
+	</ul>
+</body>
+</html>
